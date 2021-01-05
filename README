@@ -1,0 +1,6 @@
+ip: 164.8.22.187
+web port: 5000
+api port: 21037
+
+build cmd: sudo docker build -t app .
+run cmd: sudo docker run -p 5000:5000 -p 21037:21037/udp  app
